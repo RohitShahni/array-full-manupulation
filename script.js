@@ -201,12 +201,98 @@
 // console.log('deleted element :',deleted_list)
 // console.log(months)
 
-//16. toSpliced() add/remove element in/from array and return new array
+// //16. toSpliced() add/remove element in/from array and return new array
+// const months=['jan','feb','mar','april'];
+// console.log(months)
+// const newArr=months.toSpliced(1,2,'may','rohit','rahul');
+
+// console.log('new array :',newArr)
+// console.log(months)
+
+
+
+// //17. indexOf() return the first index of specified element if not found then return -1
+// const months=['jan','feb','mar','april'];
+// console.log(months)
+// const index=months.indexOf('mar');
+// const index2=months.indexOf('rohit');
+
+// console.log('index :',index)
+// console.log('index :',index2)
+
+// const deleted_list=months.splice(2,1);
+
+// console.log('deleted element :',deleted_list)
+// console.log(months)
+
+
+
+// // //18. lastIndexOf() return the last index of specified element if not found then return -1
+
+// const months=['jan','feb','mar','april'];
+// console.log(months)
+
+// const index=months.lastIndexOf('mar');
+// const index2=months.lastIndexOf('rohit');
+
+// console.log('index :',index)
+// console.log('index :',index2)
+
+// console.log(months)
+
+
+
+//19. keys() return the index of array in array iterator object
+
+// const months=['jan','feb','mar','april'];
+// console.log(months)
+
+// const list=months.keys();
+
+// for(let x of list){
+//     console.log(x)
+// }
+
+// console.log(months)
+
+
+
+
+//20. values() return the value of array in array iterator object
+// const months=['jan','feb','mar','april'];
+// console.log(months)
+
+// const list=months.values();
+
+// for(let x of list){
+//     console.log(x)
+// }
+
+// console.log(months)
+
+
+
+// //21. entries() return the index and value of array in array iterator object
+// const months=['jan','feb','mar','april'];
+// console.log(months)
+
+// const list=months.entries();
+
+// for(let x of list){
+//     console.log(x)
+// }
+
+// console.log(months)
+
+
+
+//22. every() check all element of array and return boolean value
 const months=['jan','feb','mar','april'];
 console.log(months)
 
 
 console.log(months)
+
 
 
 
